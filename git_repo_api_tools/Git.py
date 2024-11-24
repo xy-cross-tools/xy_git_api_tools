@@ -11,8 +11,24 @@ __doc__ = 'Git'
   * @Desc    :   
 '''
 
+from .platform.Platform import Platform
+
 
 class Git:
     @staticmethod
-    def fetch_all_repositories():
+    def fetch_repos(
+        platform: Platform,
+        page: int = 1,
+        per_page: int = 100,
+        type_str: str = "all",
+    ):
+        pass
+
+    @staticmethod
+    def clone_repos(
+        platform: Platform,
+        page: int = 1,
+        per_page: int = 100,
+        type_str: str = "all",
+    ):
         pass

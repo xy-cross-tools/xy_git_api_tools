@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
-__author__ = '余洋'
-__doc__ = 'BaseModuleData'
-'''
+__author__ = "余洋"
+__doc__ = "BaseModuleData"
+"""
   * @File    :   BaseModuleData.py
   * @Time    :   2023/06/06 20:21:48
   * @Author  :   余洋
@@ -9,11 +9,14 @@ __doc__ = 'BaseModuleData'
   * @Contact :   yuyangit.0515@qq.com
   * @License :   (C)Copyright 2019-2024, Ship of Ocean
   * @Desc    :   None
-'''
+"""
 
 from importlib.abc import Traversable
 from pathlib import Path
-from .utils import is_empty_string
+
+
+def is_empty_string(a_string: str | None):
+    return not isinstance(a_string, str) or not a_string or len(a_string) == 0
 
 
 class BaseModuleData:

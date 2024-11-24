@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
-__author__ = '余洋'
-__doc__ = 'GitLab'
-'''
+__author__ = "余洋"
+__doc__ = "GitLab"
+"""
   * @File    :   GitLab.py
   * @Time    :   2024/11/24 11:19:01
   * @Author  :   余洋
@@ -9,42 +9,53 @@ __doc__ = 'GitLab'
   * @Contact :   yuyangit.0515@qq.com
   * @License :   (C)Copyright 2019-2024, 希洋 (Ship of Ocean)
   * @Desc    :   
-'''
+"""
+import requests
 
-from urllib.request import urlopen
-import json
-import subprocess
-from pathlib import Path
-import time
+from xy_string.utils import is_empty_string
+
+from .urls import api_url
+
 
 class GitLab:
+
     @staticmethod
-    def repos(access_token: str, page: int=1, per_page:int=100,):
-        pass
-def main():
-    #获取当前group下的所有仓库
-    private_token = ""
-    projects = urlopen(f"https://gitlab.com/api/v4/projects?private_token={private_token}&per_page=100&page=1")
-    projects_list = json.loads(projects.read().decode())
-    for project in projects_list:
-        try:
-            full_path = Path(project.get("path_with_namespace")).resolve()
-            project_url = project.get('http_url_to_repo')
-            if project_url.endswith("/"):
-                project_url = project_url[:-1]
-            try:
-                if full_path.exists() is False:
-                    full_path.mkdir(parents=True, exist_ok=True)
-                    #因为我本地git clone 配置的是http格式的，所以我选择了http_url_to_repo, 如果你是用的git@格式，你就选择ssh_url_to_repo
-                    targit_dir_path = full_path.resolve().as_posix().replace(" ", "\ ")
-                    git_clone_command = f"git clone {project_url} {targit_dir_path}"
-                    print("git_clone_command", git_clone_command)
-                    reresultCode = subprocess.Popen(git_clone_command, shell=True, start_new_session=True,)
-                    print(f"project url {project_url} reresultCode {reresultCode}")
-                else:
-                    continue
-            except Exception as exception:
-                print(f"mkdir Error on {project_url} {exception}")
-            time.sleep(0.5)
-        except Exception as exception:
-            print(f"Error on {exception}")
+    def get(
+        url: str,
+        access_token: str,
+        page: int = 1,
+        per_page: int = 100,
+        params: dict | None = None,
+    ):
+        query = {
+            "private_token": access_token,
+            "page": page,
+            "per_page": per_page,
+        }
+        if isinstance(params, dict):
+            query.update(params)
+        if is_empty_string(url) == False:
+            response = requests.get(
+                url,
+                params=query,
+                timeout=30,
+            )
+            if response and response.status_code == 200:
+                return response.json()
+        return None
+
+    @staticmethod
+    def repos(
+        access_token: str,
+        page: int = 1,
+        per_page: int = 100,
+    ) -> list | dict | None:
+        url = api_url.get("repos")
+        if is_empty_string(url) == True:
+            return None
+        return GitLab.get(
+            url,  # type: ignore
+            access_token,
+            page,
+            per_page,
+        )
