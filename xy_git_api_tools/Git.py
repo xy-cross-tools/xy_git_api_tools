@@ -10,6 +10,9 @@ __doc__ = 'Git'
   * @License :   (C)Copyright 2019-2024, 希洋 (Ship of Ocean)
   * @Desc    :   
 '''
+import json
+
+from xy_console.utils import print_exe
 
 from .platform.Platform import Platform
 
@@ -17,18 +20,33 @@ from .platform.Platform import Platform
 class Git:
     @staticmethod
     def fetch_repos(
-        platform: Platform,
+        channel_code: str | int,
+        access_token: str,
+        url: str = "",
         page: int = 1,
         per_page: int = 100,
         type_str: str = "all",
+        params: dict = {},
     ):
-        pass
+        platform = Platform(channel_code)
+        repos = platform.repos(
+            url,
+            access_token,
+            page,
+            per_page,
+            type_str,
+            params,
+        )
+        print_exe(json.dumps(repos))
 
     @staticmethod
     def clone_repos(
-        platform: Platform,
+        channel_code: str | int,
+        access_token: str,
+        url: str = "",
         page: int = 1,
         per_page: int = 100,
         type_str: str = "all",
+        params: dict = {},
     ):
         pass

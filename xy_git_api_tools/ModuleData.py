@@ -13,9 +13,10 @@ __doc__ = 'ModuleData'
 
 from importlib_resources import files
 from .BaseModuleData import BaseModuleData
-import git_repo_api_tools
+import xy_git_api_tools
+
 
 class ModuleData(BaseModuleData):
 
     def __init__(self):
-        self.data_path = files(git_repo_api_tools.__name__).joinpath("data")  # type: ignore
+        self.data_path = files(xy_git_api_tools.__name__).joinpath("data")  # type: ignore

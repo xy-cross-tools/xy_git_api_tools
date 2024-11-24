@@ -15,7 +15,7 @@
     "python.linting.pylintEnabled": false,
     "python.linting.enabled": false,
     "black-formatter.interpreter": [
-        "/Users/helios/miniconda3/envs/py_3_11_3/bin/python"
+        "python"
     ],
     "python.analysis.autoFormatStrings": false,
     "python.analysis.addImport.exactMatchOnly": true,
@@ -36,15 +36,15 @@
     "pythonIndent.trimLinesWithOnlyWhitespace": true,
     "black-formatter.importStrategy": "fromEnvironment",
     "black-formatter.path": [
-        "/Users/helios/miniconda3/envs/py_3_11_3/bin/black"
+        "black"
     ],
     "editor.formatOnSave": true,
     "notebook.formatOnSave.enabled": true,
-    "python.formatting.blackPath": "/Users/helios/miniconda3/envs/py_3_11_3/bin/black",
+    "python.formatting.blackPath": "black",
     "vsintellicode.features.python.deepLearning": "default",
-    "python.defaultInterpreterPath": "/Users/helios/miniconda3/envs/py_3_11_3/bin/python",
+    "python.defaultInterpreterPath": "python",
     "pylint.interpreter": [
-        "/Users/helios/miniconda3/envs/py_3_11_3/bin/python"
+        "python"
     ],
     "python.analysis.diagnosticMode": "workspace",
     "terminal.integrated.defaultProfile.linux": "zsh",
@@ -60,7 +60,7 @@
     "python.linting.lintOnSave": false,
     "debug.javascript.autoAttachFilter": "smart",
     "isort.interpreter": [
-        "/Users/helios/miniconda3/envs/py_3_11_3/bin/python"
+        "python"
     ],
     "editor.defaultFormatter": "ms-python.black-formatter",
 }

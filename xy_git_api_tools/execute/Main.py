@@ -10,10 +10,11 @@ __doc__ = 'Main'
   * @License :   (C)Copyright 2019-2024, Ship of Ocean
   * @Desc    :   None
 '''
-from git_repo_api_tools.Runner import Runner
+from xy_git_api_tools.Runner import Runner
+
 
 def main():
-    
+
     if callable(Runner):
         executor = Runner()
         if executor and hasattr(executor, "main"):
@@ -22,6 +23,7 @@ def main():
                 main_func()
             except Exception:
                 print("main函数运行错误")
+
 
 if __name__ == "__main__":
     main()

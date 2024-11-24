@@ -1,2 +1,2 @@
-include git_repo_api_tools
-recursive-include git_repo_api_tools/* *
+include xy_git_api_tools
+recursive-include xy_git_api_tools/* *

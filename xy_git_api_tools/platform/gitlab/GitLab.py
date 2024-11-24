@@ -25,12 +25,14 @@ class GitLab:
         access_token: str,
         page: int = 1,
         per_page: int = 100,
+        type_str: str = "",
         params: dict | None = None,
     ):
         query = {
             "private_token": access_token,
             "page": page,
             "per_page": per_page,
+            "type": type_str,
         }
         if isinstance(params, dict):
             query.update(params)
