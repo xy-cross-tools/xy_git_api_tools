@@ -17,4 +17,11 @@ from xy_settings.Settings import Settings as xy_s
 
 
 class Settings(xy_s):
-    default_cfg_relative_path: Path = Path.home().joinpath(".xy_config/xy_git.toml")
+    default_cfg_path: Path = Path.home().joinpath(".xy_config/xy_git.toml")
+
+    def initial_cfg_path(self):
+        cfg_dir_path = self.default_cfg_path.parent
+        if cfg_dir_path.exists() == False:
+            cfg_dir_path.mkdir(parents=True, exist_ok=True)
+        if self.default_cfg_path.exists() == False:
+            self.default_cfg_path.touch()

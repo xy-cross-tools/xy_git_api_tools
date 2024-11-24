@@ -18,8 +18,12 @@ from .platform.Platform import Platform
 
 
 class Git:
-    @staticmethod
+
+    def __init__(self, cfg_path: str | None = None):
+        pass
+
     def fetch_repos(
+        self,
         channel_code: str | int,
         access_token: str,
         url: str = "",
@@ -39,8 +43,8 @@ class Git:
         )
         print_exe(json.dumps(repos))
 
-    @staticmethod
     def clone_repos(
+        self,
         channel_code: str | int,
         access_token: str,
         url: str = "",

@@ -112,6 +112,12 @@ class Runner(ArgParse):
             return arguments.command
         return None
 
+    def config(self):
+        arguments = self.arguments()
+        if isinstance(arguments, Namespace):
+            return arguments.config
+        return None
+
     def channel(self):
         arguments = self.arguments()
         if isinstance(arguments, Namespace):
@@ -175,6 +181,7 @@ class Runner(ArgParse):
 
     def api_command(self):
         command = self.command()
+        config = self.config()
         channel = self.channel()
         api_url = self.api_url(channel)
         access_token = self.access_token()
@@ -195,7 +202,7 @@ class Runner(ArgParse):
             params = {}
         try:
             print_exe(f"channel={channel}")
-            function = getattr(Git, command)  # type: ignore
+            function = getattr(Git(config), command)  # type: ignore
             function(
                 channel,
                 access_token,
