@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+requires-python = ">=3.11.3"
+
+name = "git_repo_api_tools"
+
+authors = [{ name = "余洋", email = "yuyangit.0515@qq.com" }]
+description = "git_repo_api_tools 模块"
+
+dynamic = ["version"]
+
+readme = "README.md"
+
+classifiers = ["Programming Language :: Python :: 3"]
+
+dependencies = ["importlib_resources", "requests", "xy_argparse"]
+
+[project.scripts]
+git_repo_api_tools = "git_repo_api_tools.execute.Main:main"
+
+[tool.setuptools.packages.find]
+where = ["./"]
+include = ["git_repo_api_tools"]
+namespaces = false
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = { file = "VERSION" }
