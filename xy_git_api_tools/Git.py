@@ -29,6 +29,8 @@ class Git:
     def __init__(self, cfg_path: str | None = None):
         if isinstance(cfg_path, str) and len(cfg_path) > 0:
             self.settings.default_cfg_path = Path(cfg_path)
+        if not cfg_path:
+            cfg_path = self.settings.default_cfg_path
         if self.settings.check_cfg_path() == True:
             self.settings.load(cfg_path)
             self.platform = Platform(self.settings.git_config.platform)
