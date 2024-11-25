@@ -53,11 +53,13 @@ class GitLab:
         per_page: int = 100,
     ) -> list | dict | None:
         url = api_url.get("repos")
-        if is_empty_string(url) == True:
-            return None
+        params = {
+            "membership": True,
+        }
         return GitLab.get(
             url,  # type: ignore
             access_token,
             page,
             per_page,
+            params=params,
         )

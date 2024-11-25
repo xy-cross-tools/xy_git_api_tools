@@ -13,6 +13,4 @@ __doc__ = 'urls'
 
 base_url = "https://gitlab.com"
 
-api_url = {
-    "repos": f"{base_url}/api/v4/projects"
-}
+api_url = {"repos": f"{base_url}/api/v4/projects"}

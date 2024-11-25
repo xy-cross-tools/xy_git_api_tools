@@ -14,5 +14,7 @@ __doc__ = 'urls'
 base_url = "https://api.github.com"
 
 api_url = {
-    "repos": f"{base_url}/users/user/repos",
+    "user_repos": lambda username: f"{base_url}/users/{username}/repos",
+    "user_orgs": f"{base_url}/user/memberships/orgs",
+    "org_user_repos": lambda org_name: f"{base_url}/orgs/{org_name}/repos",
 }

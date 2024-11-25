@@ -1,11 +1,12 @@
-[github]
-access_token = ""
+[git_config]
+platform = "gitcode"
+# platform = "https://gitlab.com/api/v4/projects"
+# platform = 0
+# platform = "GitCode"
+# platform = "giTcOde"
+# platform = "giTCODe"
 
-[gitcode]
-access_token = ""
+access_token = "232323dsafasdfasdf"
+# access_token = "glpat-asdjklfjweroijweoirjwoer"
 
-[gitee]
-access_token = ""
-
-[gitlab]
-access_token = ""
+username = "yuyangit"

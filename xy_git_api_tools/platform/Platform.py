@@ -34,16 +34,19 @@ class EPlatformChannel(IntEnum):
         if (
             channel_code_lower == EPlatformChannel.GitCode.name.lower()
             or channel_code_lower == str(EPlatformChannel.GitCode.value)
+            or channel_code_lower == EPlatformChannel.GitCode.value
         ):
             return EPlatformChannel.GitCode
         elif (
             channel_code_lower == EPlatformChannel.Gitee.name.lower()
             or channel_code_lower == str(EPlatformChannel.Gitee.value)
+            or channel_code_lower == EPlatformChannel.Gitee.value
         ):
             return EPlatformChannel.Gitee
         elif (
             channel_code_lower == EPlatformChannel.GitHub.name.lower()
             or channel_code_lower == str(EPlatformChannel.GitHub.value)
+            or channel_code_lower == EPlatformChannel.GitHub.value
         ):
             return EPlatformChannel.GitHub
         else:
@@ -55,7 +58,7 @@ class Platform:
 
     def __init__(
         self,
-        channel_code: str | int,
+        channel_code: str | int = 0,
     ):
         self.channel = EPlatformChannel.parse(channel_code)
 
@@ -67,6 +70,7 @@ class Platform:
         per_page: int = 100,
         type_str: str = "all",
         params: dict = {},
+        username: str = "",
     ):
         match self.channel:
             case EPlatformChannel.GitCode:
@@ -84,6 +88,7 @@ class Platform:
             case EPlatformChannel.GitHub:
                 return GitHub.repos(
                     access_token,
+                    username,
                     page,
                     per_page,
                     type_str,
@@ -105,3 +110,23 @@ class Platform:
                         params=params,
                     )
                 return None
+
+    def get(
+        self,
+        url: str,
+        access_token: str,
+        page: int = 1,
+        per_page: int = 100,
+        type_str: str = "all",
+        params: dict = {},
+    ):
+        if isinstance(url, str) and url:
+            return GitLab.get(
+                url,
+                access_token,
+                page,
+                per_page,
+                type_str=type_str,
+                params=params,
+            )
+        return None

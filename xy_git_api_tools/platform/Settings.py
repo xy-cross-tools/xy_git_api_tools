@@ -15,13 +15,19 @@ from pathlib import Path
 
 from xy_settings.Settings import Settings as xy_s
 
+from .GitConfig import GitConfig
+
 
 class Settings(xy_s):
     default_cfg_path: Path = Path.home().joinpath(".xy_config/xy_git.toml")
+    git_config: GitConfig | None = GitConfig()
 
-    def initial_cfg_path(self):
-        cfg_dir_path = self.default_cfg_path.parent
-        if cfg_dir_path.exists() == False:
-            cfg_dir_path.mkdir(parents=True, exist_ok=True)
-        if self.default_cfg_path.exists() == False:
-            self.default_cfg_path.touch()
+    def check_cfg_path(self) -> bool:
+        return (
+            isinstance(self.default_cfg_path, Path)
+            and self.default_cfg_path.exists() == True
+        )
+
+    def reload(self, settings_cfg_path: Path):
+        super().reload(settings_cfg_path)
+        self.git_config = self.make_section(GitConfig)

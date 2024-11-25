@@ -1,0 +1,2248 @@
+[
+    {
+        "id": 4357570,
+        "full_name": "xy-opensource/xy_git_api_tools",
+        "human_name": "xy-opensource / xy_git_api_tools",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_git_api_tools",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_git_api_tools",
+        "name": "xy_git_api_tools",
+        "description": "\u5173\u4e8eGit\u7684Api\u5de5\u5177",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_git_api_tools.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_git_api_tools.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_git_api_tools",
+        "created_at": "2024-11-24T13:11:49.606+08:00",
+        "updated_at": "2024-11-24T13:11:49.606+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_git_api_tools",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4357105,
+        "full_name": "xy-opensource/xy_pypi_builder_mirror",
+        "human_name": "xy-opensource / xy_pypi_builder_mirror",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_pypi_builder_mirror",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_pypi_builder_mirror",
+        "name": "xy_pypi_builder_mirror",
+        "description": "\u7f16\u8bd1python\u6a21\u5757\u7684pypi\u73af\u5883\u7684\u955c\u50cf.",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_pypi_builder_mirror.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_pypi_builder_mirror.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_pypi_builder_mirror",
+        "created_at": "2024-11-24T08:55:04.966+08:00",
+        "updated_at": "2024-11-24T13:05:59.513+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_pypi_builder_mirror",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Dockerfile",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4355909,
+        "full_name": "yuyangit/xy-opensource-ui",
+        "human_name": "yuyangit / xy-opensource-ui",
+        "url": "https://api.gitcode.com/api/v5/repos/yuyangit/xy-opensource-ui",
+        "namespace": {
+            "id": 3526531,
+            "type": "user",
+            "name": "yuyangit",
+            "path": "yuyangit",
+            "html_url": "https://gitcode.com/yuyangit"
+        },
+        "path": "xy-opensource-ui",
+        "name": "xy-opensource-ui",
+        "description": "\u5e0c\u6d0b\u5f00\u6e90ui\u8d44\u6e90\u4ed3\u5e93",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:yuyangit/xy-opensource-ui.git",
+        "http_url_to_repo": "https://gitcode.com/yuyangit/xy-opensource-ui.git",
+        "web_url": "https://gitcode.com/yuyangit/xy-opensource-ui",
+        "created_at": "2024-11-23T21:01:02.971+08:00",
+        "updated_at": "2024-11-23T21:01:02.971+08:00",
+        "homepage": "https://gitcode.com/yuyangit/xy-opensource-ui",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3526531,
+            "path": "yuyangit",
+            "html_url": "https://gitcode.com/yuyangit",
+            "type": "user"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "private": true,
+        "public": false
+    },
+    {
+        "id": 4355562,
+        "full_name": "xy-opensource/xy_unarchiver",
+        "human_name": "xy-opensource / xy_unarchiver",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_unarchiver",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_unarchiver",
+        "name": "xy_unarchiver",
+        "description": "\u538b\u7f29\u89e3\u538b\u7f29\u8f6f\u4ef6",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_unarchiver.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_unarchiver.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_unarchiver",
+        "created_at": "2024-11-23T18:05:32.735+08:00",
+        "updated_at": "2024-11-23T18:05:32.735+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_unarchiver",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": true,
+        "public": false
+    },
+    {
+        "id": 4353011,
+        "full_name": "xy-harmonyos/xy_ohpm_repo",
+        "human_name": "xy-harmonyos / xy_ohpm_repo",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-harmonyos/xy_ohpm_repo",
+        "namespace": {
+            "id": 3572797,
+            "type": "enterprise",
+            "name": "xy-harmonyos",
+            "path": "xy-harmonyos",
+            "html_url": "https://gitcode.com/xy-harmonyos"
+        },
+        "path": "xy_ohpm_repo",
+        "name": "xy_ohpm_repo",
+        "description": "ohpm\u79c1\u4ed3\u670d\u52a1\u955c\u50cf",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-harmonyos/xy_ohpm_repo.git",
+        "http_url_to_repo": "https://gitcode.com/xy-harmonyos/xy_ohpm_repo.git",
+        "web_url": "https://gitcode.com/xy-harmonyos/xy_ohpm_repo",
+        "created_at": "2024-11-22T19:08:43.181+08:00",
+        "updated_at": "2024-11-22T19:08:43.181+08:00",
+        "homepage": "https://gitcode.com/xy-harmonyos/xy_ohpm_repo",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3572797,
+            "path": "xy-harmonyos",
+            "html_url": "https://gitcode.com/xy-harmonyos",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Shell",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4353010,
+        "full_name": "xy-harmonyos/Documents",
+        "human_name": "xy-harmonyos / Documents",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-harmonyos/Documents",
+        "namespace": {
+            "id": 3572797,
+            "type": "enterprise",
+            "name": "xy-harmonyos",
+            "path": "xy-harmonyos",
+            "html_url": "https://gitcode.com/xy-harmonyos"
+        },
+        "path": "Documents",
+        "name": "Documents",
+        "description": "xy-harmonyos\u7ec4\u7ec7\u6587\u6863",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-harmonyos/Documents.git",
+        "http_url_to_repo": "https://gitcode.com/xy-harmonyos/Documents.git",
+        "web_url": "https://gitcode.com/xy-harmonyos/Documents",
+        "created_at": "2024-11-22T19:07:49.260+08:00",
+        "updated_at": "2024-11-22T19:07:49.260+08:00",
+        "homepage": "https://gitcode.com/xy-harmonyos/Documents",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3572797,
+            "path": "xy-harmonyos",
+            "html_url": "https://gitcode.com/xy-harmonyos",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4339918,
+        "full_name": "yuyangit/YuGoonOS",
+        "human_name": "yuyangit / YuGoonOS",
+        "url": "https://api.gitcode.com/api/v5/repos/yuyangit/YuGoonOS",
+        "namespace": {
+            "id": 3526531,
+            "type": "user",
+            "name": "yuyangit",
+            "path": "yuyangit",
+            "html_url": "https://gitcode.com/yuyangit"
+        },
+        "path": "YuGoonOS",
+        "name": "YuGoonOS",
+        "description": "\u7389\u5f13\u64cd\u4f5c\u7cfb\u7edf",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:yuyangit/YuGoonOS.git",
+        "http_url_to_repo": "https://gitcode.com/yuyangit/YuGoonOS.git",
+        "web_url": "https://gitcode.com/yuyangit/YuGoonOS",
+        "created_at": "2024-11-19T09:11:02.523+08:00",
+        "updated_at": "2024-11-19T09:11:02.523+08:00",
+        "homepage": "https://gitcode.com/yuyangit/YuGoonOS",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3526531,
+            "path": "yuyangit",
+            "html_url": "https://gitcode.com/yuyangit",
+            "type": "user"
+        },
+        "default_branch": "",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "private": true,
+        "public": false
+    },
+    {
+        "id": 4333478,
+        "full_name": "YuGoongSoft/HuDongManager-Client-HM",
+        "human_name": "YuGoongSoft / HuDongManager-Client-HM",
+        "url": "https://api.gitcode.com/api/v5/repos/YuGoongSoft/HuDongManager-Client-HM",
+        "namespace": {
+            "id": 3908737,
+            "type": "enterprise",
+            "name": "YuGoongSoft",
+            "path": "YuGoongSoft",
+            "html_url": "https://gitcode.com/YuGoongSoft"
+        },
+        "path": "HuDongManager-Client-HM",
+        "name": "HuDongManager-Client-HM",
+        "description": "\u6e56\u51ac\u7ba1\u7406\u5668\u5ba2\u6237\u7aef",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:YuGoongSoft/HuDongManager-Client-HM.git",
+        "http_url_to_repo": "https://gitcode.com/YuGoongSoft/HuDongManager-Client-HM.git",
+        "web_url": "https://gitcode.com/YuGoongSoft/HuDongManager-Client-HM",
+        "created_at": "2024-11-17T19:08:30.081+08:00",
+        "updated_at": "2024-11-24T08:43:52.521+08:00",
+        "homepage": "https://gitcode.com/YuGoongSoft/HuDongManager-Client-HM",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3908737,
+            "path": "YuGoongSoft",
+            "html_url": "https://gitcode.com/YuGoongSoft",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "ArkTS",
+        "private": true,
+        "public": false
+    },
+    {
+        "id": 4314309,
+        "full_name": "xy-opensource/xy_frp",
+        "human_name": "xy-opensource / xy_frp",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_frp",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_frp",
+        "name": "xy_frp",
+        "description": "frp\u5de5\u5177",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_frp.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_frp.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_frp",
+        "created_at": "2024-11-12T19:19:18.949+08:00",
+        "updated_at": "2024-11-12T19:19:18.949+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_frp",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4314307,
+        "full_name": "xy-opensource/xy_systemd",
+        "human_name": "xy-opensource / xy_systemd",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_systemd",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_systemd",
+        "name": "xy_systemd",
+        "description": "\u5b9a\u5236systemd\u5de5\u5177",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_systemd.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_systemd.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_systemd",
+        "created_at": "2024-11-12T19:17:57.063+08:00",
+        "updated_at": "2024-11-12T19:17:57.063+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_systemd",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4314295,
+        "full_name": "xy-opensource/xy_django_model",
+        "human_name": "xy-opensource / xy_django_model",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_django_model",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_django_model",
+        "name": "xy_django_model",
+        "description": "django\u6a21\u578b\u5de5\u5177",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_django_model.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_django_model.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_django_model",
+        "created_at": "2024-11-12T19:10:55.148+08:00",
+        "updated_at": "2024-11-12T19:15:26.896+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_django_model",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4314276,
+        "full_name": "xy-opensource/xy_django_app_feedback",
+        "human_name": "xy-opensource / xy_django_app_feedback",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_django_app_feedback",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_django_app_feedback",
+        "name": "xy_django_app_feedback",
+        "description": "\u53cd\u9988\u6a21\u578b",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_django_app_feedback.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_django_app_feedback.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_django_app_feedback",
+        "created_at": "2024-11-12T19:04:55.956+08:00",
+        "updated_at": "2024-11-12T19:04:55.956+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_django_app_feedback",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308236,
+        "full_name": "xy-opensource/xy_django_app_account",
+        "human_name": "xy-opensource / xy_django_app_account",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_django_app_account",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_django_app_account",
+        "name": "xy_django_app_account",
+        "description": "\u8d26\u6237\u6a21\u578b",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_django_app_account.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_django_app_account.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_django_app_account",
+        "created_at": "2024-11-10T18:07:54.088+08:00",
+        "updated_at": "2024-11-10T18:07:54.088+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_django_app_account",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308235,
+        "full_name": "xy-opensource/xy_django_app_resource",
+        "human_name": "xy-opensource / xy_django_app_resource",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_django_app_resource",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_django_app_resource",
+        "name": "xy_django_app_resource",
+        "description": "\u8d44\u6e90\u6a21\u578b",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_django_app_resource.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_django_app_resource.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_django_app_resource",
+        "created_at": "2024-11-10T18:07:46.408+08:00",
+        "updated_at": "2024-11-10T18:08:52.944+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_django_app_resource",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308232,
+        "full_name": "xy-opensource/xy_django_app_siteuser",
+        "human_name": "xy-opensource / xy_django_app_siteuser",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_django_app_siteuser",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_django_app_siteuser",
+        "name": "xy_django_app_siteuser",
+        "description": "\u7ad9\u70b9\u7528\u6237",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_django_app_siteuser.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_django_app_siteuser.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_django_app_siteuser",
+        "created_at": "2024-11-10T18:06:35.443+08:00",
+        "updated_at": "2024-11-10T18:06:35.443+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_django_app_siteuser",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308218,
+        "full_name": "xy-opensource/xy_django_app_api_auth",
+        "human_name": "xy-opensource / xy_django_app_api_auth",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_django_app_api_auth",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_django_app_api_auth",
+        "name": "xy_django_app_api_auth",
+        "description": "\u63a5\u53e3\u52a0\u5bc6 \u6a21\u578b",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_django_app_api_auth.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_django_app_api_auth.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_django_app_api_auth",
+        "created_at": "2024-11-10T18:00:07.006+08:00",
+        "updated_at": "2024-11-10T18:01:18.810+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_django_app_api_auth",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308215,
+        "full_name": "xy-opensource/xy_django_app_information",
+        "human_name": "xy-opensource / xy_django_app_information",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_django_app_information",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_django_app_information",
+        "name": "xy_django_app_information",
+        "description": "\u4fe1\u606f\u6a21\u578b",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_django_app_information.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_django_app_information.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_django_app_information",
+        "created_at": "2024-11-10T17:59:42.372+08:00",
+        "updated_at": "2024-11-10T17:59:42.372+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_django_app_information",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308212,
+        "full_name": "xy-opensource/xy_django_serializer",
+        "human_name": "xy-opensource / xy_django_serializer",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_django_serializer",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_django_serializer",
+        "name": "xy_django_serializer",
+        "description": "\u57fa\u4e8edjangorestframework\u7684serializer\u89e3\u6790\u57fa\u7c7b, \u5c01\u88c5\u4e86\u5e38\u7528\u529f\u80fd, \u65b9\u4fbf\u5feb\u901f\u5f00\u53d1.",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_django_serializer.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_django_serializer.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_django_serializer",
+        "created_at": "2024-11-10T17:56:25.260+08:00",
+        "updated_at": "2024-11-10T17:56:58.268+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_django_serializer",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308200,
+        "full_name": "xy-opensource/xy_web_server",
+        "human_name": "xy-opensource / xy_web_server",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_web_server",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_web_server",
+        "name": "xy_web_server",
+        "description": "xy-web-service \u670d\u52a1\u6a21\u5757",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_web_server.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_web_server.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_web_server",
+        "created_at": "2024-11-10T17:52:34.119+08:00",
+        "updated_at": "2024-11-10T17:52:34.119+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_web_server",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308188,
+        "full_name": "xy-opensource/xy_web_settings",
+        "human_name": "xy-opensource / xy_web_settings",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_web_settings",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_web_settings",
+        "name": "xy_web_settings",
+        "description": "xy-web-service \u670d\u52a1\u8bbe\u7f6e\u6a21\u5757",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_web_settings.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_web_settings.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_web_settings",
+        "created_at": "2024-11-10T17:49:49.053+08:00",
+        "updated_at": "2024-11-10T17:53:23.493+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_web_settings",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308184,
+        "full_name": "xy-opensource/xy_web_work",
+        "human_name": "xy-opensource / xy_web_work",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_web_work",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_web_work",
+        "name": "xy_web_work",
+        "description": "xy-web-service \u5de5\u4f5c\u6a21\u5757",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_web_work.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_web_work.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_web_work",
+        "created_at": "2024-11-10T17:49:00.369+08:00",
+        "updated_at": "2024-11-10T17:53:32.469+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_web_work",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308172,
+        "full_name": "xy-opensource/xy_request_handler__feedback",
+        "human_name": "xy-opensource / xy_request_handler__feedback",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_request_handler__feedback",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_request_handler__feedback",
+        "name": "xy_request_handler__feedback",
+        "description": "\u53cd\u9988\u4e1a\u52a1\u8bf7\u6c42\u6a21\u5757",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_request_handler__feedback.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_request_handler__feedback.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_request_handler__feedback",
+        "created_at": "2024-11-10T17:45:09.783+08:00",
+        "updated_at": "2024-11-10T17:53:12.516+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_request_handler__feedback",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308169,
+        "full_name": "xy-opensource/xy_request_handler_web",
+        "human_name": "xy-opensource / xy_request_handler_web",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_request_handler_web",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_request_handler_web",
+        "name": "xy_request_handler_web",
+        "description": "tornado\u8bf7\u6c42\u57fa\u7c7b\u5c01\u88c5Web",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_request_handler_web.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_request_handler_web.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_request_handler_web",
+        "created_at": "2024-11-10T17:44:22.019+08:00",
+        "updated_at": "2024-11-10T17:44:22.019+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_request_handler_web",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308166,
+        "full_name": "xy-opensource/xy_request_handler_base",
+        "human_name": "xy-opensource / xy_request_handler_base",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_request_handler_base",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_request_handler_base",
+        "name": "xy_request_handler_base",
+        "description": "tornado\u8bf7\u6c42\u57fa\u7c7b\u5c01\u88c5",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_request_handler_base.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_request_handler_base.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_request_handler_base",
+        "created_at": "2024-11-10T17:42:21.682+08:00",
+        "updated_at": "2024-11-10T17:42:21.682+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_request_handler_base",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308117,
+        "full_name": "xy-opensource/xy_argparse",
+        "human_name": "xy-opensource / xy_argparse",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_argparse",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_argparse",
+        "name": "xy_argparse",
+        "description": "\u547d\u4ee4\u884c\u53c2\u6570\u7b80\u6613\u5de5\u5177",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_argparse.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_argparse.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_argparse",
+        "created_at": "2024-11-10T17:21:10.140+08:00",
+        "updated_at": "2024-11-10T17:21:10.140+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_argparse",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308108,
+        "full_name": "xy-opensource/Documents",
+        "human_name": "xy-opensource / Documents",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/Documents",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "Documents",
+        "name": "Documents",
+        "description": "\u7ec4\u7ec7\u6587\u6863\u4ed3\u5e93",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/Documents.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/Documents.git",
+        "web_url": "https://gitcode.com/xy-opensource/Documents",
+        "created_at": "2024-11-10T17:19:02.118+08:00",
+        "updated_at": "2024-11-10T17:19:18.300+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/Documents",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4308002,
+        "full_name": "xy-opensource/xy_work",
+        "human_name": "xy-opensource / xy_work",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_work",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_work",
+        "name": "xy_work",
+        "description": "\u901a\u7528\u5de5\u4f5c\u6a21\u5757",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_work.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_work.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_work",
+        "created_at": "2024-11-10T16:26:15.311+08:00",
+        "updated_at": "2024-11-10T16:26:15.311+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_work",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4307999,
+        "full_name": "xy-opensource/xy_file",
+        "human_name": "xy-opensource / xy_file",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_file",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_file",
+        "name": "xy_file",
+        "description": "\u6587\u4ef6\u5de5\u5177",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_file.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_file.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_file",
+        "created_at": "2024-11-10T16:25:20.745+08:00",
+        "updated_at": "2024-11-10T17:18:14.505+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_file",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4307994,
+        "full_name": "xy-opensource/xy_dict",
+        "human_name": "xy-opensource / xy_dict",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_dict",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_dict",
+        "name": "xy_dict",
+        "description": "\u5b57\u5178\u5de5\u5177",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_dict.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_dict.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_dict",
+        "created_at": "2024-11-10T16:23:56.124+08:00",
+        "updated_at": "2024-11-10T16:23:56.124+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_dict",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    },
+    {
+        "id": 4307990,
+        "full_name": "xy-opensource/xy_conda",
+        "human_name": "xy-opensource / xy_conda",
+        "url": "https://api.gitcode.com/api/v5/repos/xy-opensource/xy_conda",
+        "namespace": {
+            "id": 3536801,
+            "type": "enterprise",
+            "name": "xy-opensource",
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource"
+        },
+        "path": "xy_conda",
+        "name": "xy_conda",
+        "description": "conda \u5de5\u5177",
+        "status": "\u5f00\u59cb",
+        "ssh_url_to_repo": "git@gitcode.com:xy-opensource/xy_conda.git",
+        "http_url_to_repo": "https://gitcode.com/xy-opensource/xy_conda.git",
+        "web_url": "https://gitcode.com/xy-opensource/xy_conda",
+        "created_at": "2024-11-10T16:22:07.265+08:00",
+        "updated_at": "2024-11-10T16:22:07.265+08:00",
+        "homepage": "https://gitcode.com/xy-opensource/xy_conda",
+        "members": [
+            "yuyangit"
+        ],
+        "assignee": [
+            {
+                "id": "2173437",
+                "login": "yuyangit",
+                "name": "yuyangit",
+                "avatar_url": "https://cdn-img.gitcode.com/fe/fd/f06483269e5f85434d8dc1aa80c1361e9f1fed704b5681043bed4eecaaffce8e.jpeg?time=1731978609795",
+                "html_url": "https://gitcode.com/yuyangit",
+                "type": "User"
+            }
+        ],
+        "forks_count": 0,
+        "stargazers_count": 0,
+        "project_labels": [],
+        "relation": "master",
+        "permission": {
+            "pull": true,
+            "push": true,
+            "admin": true
+        },
+        "internal": false,
+        "open_issues_count": 0,
+        "has_issue": false,
+        "watched": false,
+        "watchers_count": 0,
+        "assignees_number": 1,
+        "enterprise": {
+            "id": 3536801,
+            "path": "xy-opensource",
+            "html_url": "https://gitcode.com/xy-opensource",
+            "type": "enterprise"
+        },
+        "default_branch": "main",
+        "fork": false,
+        "owner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "assigner": {
+            "id": "2173437",
+            "login": "yuyangit",
+            "name": "yuyangit",
+            "type": "User"
+        },
+        "issue_template_source": "project",
+        "language": "Python",
+        "private": false,
+        "public": true
+    }
+]

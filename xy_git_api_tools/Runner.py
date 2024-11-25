@@ -55,12 +55,11 @@ class Runner(ArgParse):
             """,
         )
         self.add_argument(
-            flag="-ch",
-            name="--channel",
+            flag="-plt",
+            name="--platform",
             help_text="""
                 默认: 0, 可选: 0/gitcode, 1/gitee, 2/github, 3/gitlab, 其他对应Gitlab-api的url, 可输入url, 默认https://gitlab.com
             """,
-            default="0",
         )
         self.add_argument(
             flag="-cfg",
@@ -99,6 +98,11 @@ class Runner(ArgParse):
             name="--per_page",
             help_text="接口参数: 每页个数 => 默认: 100, 最大100, 最小10",
         )
+        self.add_argument(
+            flag="-u",
+            name="--username",
+            help_text="-plt/--platform 为github时候必须传入 GitHub用户名",
+        )
 
     def work(self):
         arguments = self.arguments()
@@ -118,10 +122,10 @@ class Runner(ArgParse):
             return arguments.config
         return None
 
-    def channel(self):
+    def platform(self):
         arguments = self.arguments()
         if isinstance(arguments, Namespace):
-            return arguments.channel
+            return arguments.platform
         return None
 
     def access_token(self):
@@ -154,6 +158,12 @@ class Runner(ArgParse):
             return arguments.per_page
         return None
 
+    def username(self):
+        arguments = self.arguments()
+        if isinstance(arguments, Namespace):
+            return arguments.username
+        return None
+
     def on_arguments(
         self,
         name,
@@ -169,12 +179,12 @@ class Runner(ArgParse):
             return False
         return True
 
-    def api_url(self, channel: str | int):
-        if isinstance(channel, str) and len(channel) > 0:
+    def api_url(self, platform: str | int):
+        if isinstance(platform, str) and len(platform) > 0:
             return (
-                channel
-                if len(channel) >= 10
-                and (channel.startswith("http://") or channel.startswith("https://"))
+                platform
+                if len(platform) >= 10
+                and (platform.startswith("http://") or platform.startswith("https://"))
                 else ""
             )
         return None
@@ -182,18 +192,19 @@ class Runner(ArgParse):
     def api_command(self):
         command = self.command()
         config = self.config()
-        channel = self.channel()
-        api_url = self.api_url(channel)
+        platform = self.platform()
+        api_url = self.api_url(platform)
         access_token = self.access_token()
         type_value = self.type_value()
         params_text = self.params()
         page = self.page()
         per_page = self.per_page()
+        username = self.username()
+
         if not command:
-            print_e("请传入 -c/--command 参数!!!")
-            return
-        if not access_token:
-            print_e("请传入 -at/--access_token 参数!!!")
+            print_e(
+                "请传入根据 xy_git_api_tools -w list_api 中展示的 -c/--command 参数!!!"
+            )
             return
         params = {}
         try:
@@ -201,19 +212,27 @@ class Runner(ArgParse):
         except:
             params = {}
         try:
-            print_exe(f"channel={channel}")
+            if (
+                api_url
+                and isinstance(api_url, str)
+                and len(api_url) > 0
+                and (api_url.startswith("http://") or api_url.startswith("https://"))
+            ):
+                command = "get"
+                platform = "gitlab"
             function = getattr(Git(config), command)  # type: ignore
             function(
-                channel,
-                access_token,
-                api_url,
-                page,
-                per_page,
-                type_value,
-                params,
+                access_token=access_token,
+                platform_code=platform,
+                url=api_url,
+                page=page,
+                per_page=per_page,
+                type_str=type_value,
+                params=params,
+                username=username,
             )
         except Exception as e:
-            print_e("请传入根据 xy_git_api_tools -w list_api 中展示的命令")
+            print_e(f"报告错误\n{e.args}")
 
     def list_api(self):
         print_exe(Helper().help_text())

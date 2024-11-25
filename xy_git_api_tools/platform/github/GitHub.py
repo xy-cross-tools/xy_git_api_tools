@@ -11,13 +11,12 @@ __doc__ = "GitHub"
   * @Desc    :   
 """
 import requests
+from pathlib import Path
 
-from urllib.parse import urlencode
-import requests
-
+from xy_console.utils import print_e
 from xy_string.utils import is_empty_string
 
-from .urls import api_url
+from .urls import base_url, api_url
 
 
 class GitHub:
@@ -50,12 +49,15 @@ class GitHub:
     @staticmethod
     def repos(
         access_token: str,
+        username: str,
         page: int = 1,
         per_page: int = 100,
         type_str: str = "all",
     ):
-
-        url = api_url.get("repos")
+        if not access_token or not username:
+            print_e("access_token和username未传入!!!")
+            return
+        user_repos_url = api_url.get("user_repos")(username)  # type: ignore
         params = {
             "type": type_str,
         }
@@ -64,12 +66,35 @@ class GitHub:
             "Authorization": f"Bearer {access_token}",
             "X-GitHub-Api-Version": "2022-11-28",
         }
-        if is_empty_string(url) == True:
+        if is_empty_string(username) == True:
             return None
-        return GitHub.get(
-            url,  # type: ignore
+        repos = GitHub.get(
+            user_repos_url,  # type: ignore
             page,
             per_page,
             params=params,
             headers=headers,
         )
+        if not isinstance(repos, list):
+            repos = []
+        user_orgs_url = api_url.get("user_orgs")
+        org_user_repos_url = api_url.get("org_user_repos")
+        organizations = GitHub.get(
+            user_orgs_url,
+            headers=headers,
+        )
+        if isinstance(organizations, list):
+            for organization in organizations:
+                if isinstance(organization, dict):
+                    organization_url = organization.get("organization_url")
+                    if isinstance(
+                        organization_url, str
+                    ) and organization_url.startswith(base_url):
+                        org_name = Path(organization_url).name
+                        org_repos_url = org_user_repos_url(org_name)
+                        org_repos = GitHub.get(
+                            org_repos_url,
+                            headers=headers,
+                        )
+                        repos.extend(org_repos)
+        return repos
